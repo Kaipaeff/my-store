@@ -1,0 +1,46 @@
+.user_item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.user_item:not(:last-child) {
+  border-bottom: 1px solid #4b5258;
+}
+
+.item_number {
+  margin-right: 32px;
+  color: #fff;
+}
+
+.item_logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 16px;
+}
+
+.item_user_block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-right: auto;
+  font-family: sans-serif;
+}
+
+.user_block_name {
+  font-size: 16px;
+  color: #fff;
+}
+.user_block_email {
+  font-size: 12px;
+  color: rgb(255, 255, 255, 0.4);
+}
+
+.item_count {
+  width: 168px;
+  padding-left: 12px;
+  color: #fff;
+}
