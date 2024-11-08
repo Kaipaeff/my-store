@@ -9,3 +9,15 @@
   margin-bottom: 48px;
   color: rgba(255, 255, 255, 0.33);
 }
+
+/*! Мобильная версия */
+@media (max-width: 833px) {
+  .header_title {
+    font-size: 24px;
+  }
+
+  .header_subtitle {
+    font-size: 12px;
+    margin-bottom: 24px;
+  }
+}
