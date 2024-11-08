@@ -34,6 +34,7 @@
   font-size: 16px;
   color: #fff;
 }
+
 .user_block_email {
   font-size: 12px;
   color: rgb(255, 255, 255, 0.4);
@@ -43,4 +44,38 @@
   width: 168px;
   padding-left: 12px;
   color: #fff;
+}
+
+/*! Мобильная версия */
+@media (max-width: 833px) {
+  .user_item {
+    padding: 12px 16px;
+  }
+
+  .item_number {
+    font-size: 12px;
+    margin-right: 24px;
+  }
+
+  .item_count {
+    font-size: 12px;
+    width: 86px;
+    text-align: right;
+    padding: 0;
+    padding-right: 24px;
+  }
+
+  .item_logo {
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+  }
+
+  .user_block_name {
+    font-size: 12px;
+  }
+
+  .user_block_email {
+    font-size: 10px;
+  }
 }

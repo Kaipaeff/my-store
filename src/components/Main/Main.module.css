@@ -18,9 +18,11 @@
 .title_number {
   margin-right: 32px;
 }
+
 .title_name {
   margin-right: auto;
 }
+
 .title_count {
   width: 168px;
   padding-left: 12px;
@@ -31,4 +33,43 @@
   flex-direction: column;
   align-items: center;
   overflow: auto;
+}
+
+/*! Планшетная версия */
+@media (min-width: 834px) and (max-width: 1194px) {
+  .main {
+    max-width: 674px;
+    max-height: 1012px;
+  }
+}
+
+/*! Мобильная версия */
+@media (max-width: 833px) {
+  .main {
+    max-width: 322px;
+    max-height: 592px;
+  }
+
+  .user_list {
+    overflow: auto;
+  }
+
+  .main_title {
+    padding: 11px 16px;
+  }
+
+  .title_number {
+    font-size: 8px;
+  }
+
+  .title_name {
+    font-size: 8px;
+  }
+
+  .title_count {
+    font-size: 8px;
+    width: 86px;
+    text-align: right;
+    padding: 0;
+  }
 }
