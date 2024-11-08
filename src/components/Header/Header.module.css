@@ -1,0 +1,11 @@
+.header_title {
+  font-size: 48px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.header_subtitle {
+  font-size: 16px;
+  margin-bottom: 48px;
+  color: rgba(255, 255, 255, 0.33);
+}
